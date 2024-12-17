@@ -12,7 +12,7 @@ COMMAND_MB_END="$FOLDER/disconnect_mb.sh"
 #COMMAND_VLC_ADHAN="(pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit)"
 
 Log() {
-        printf '%s\n' "$@" >> $FOLDER/$LOG_FILENAME
+	printf "$(date +'%Y-%m-%d %H:%M:%S') %s\n" "$@" >> $FOLDER/$LOG_FILENAME
 }
 
 Log "-------------------------------------------------------------"

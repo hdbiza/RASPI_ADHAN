@@ -1,2 +1,0 @@
-/home/ted/Desktop/ADHAN/allaho_akbar.sh: line 48: 17900 Killed                  bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_ADHAN && $COMMAND_MB_END" 2>&1
-/home/ted/Desktop/ADHAN/allaho_akbar.sh: line 48: 17887 Killed                  bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_ADHAN && $COMMAND_MB_END" 2>&1
