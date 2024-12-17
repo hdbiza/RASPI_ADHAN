@@ -57,3 +57,190 @@ Isha Time For Isha : 18:13
 DIFF between Isha and now is : 12018
 DIFF is positive
 Starting Adhan on Tue 17 Dec 14:52:42 CET 2024 for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 2
+kill in progress
+++++++++++++FILE CLEAN++++++++++++
+total 12
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted 2425 Dec 17 15:13 Traces_17122024.log
+-rw-r--r-- 1 ted ted 2551 Dec 17 15:13 dump.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -28371
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -8812
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -2152
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 6067
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 10746
+DIFF is positive
+Setting up Adhan Time... for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 0
+++++++++++++FILE CLEAN++++++++++++
+total 12
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted 2551 Dec 17 15:13 dump.log
+-rw-r--r-- 1 ted ted 3376 Dec 17 15:14 Traces_17122024.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -28428
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -8869
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -2210
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 6010
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 10689
+DIFF is positive
+Setting up Adhan Time... for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 2
+kill in progress
+++++++++++++FILE CLEAN++++++++++++
+total 12
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted    0 Dec 17 15:23 dump.log
+-rw-r--r-- 1 ted ted 4344 Dec 17 15:23 Traces_17122024.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -28960
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -9401
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -2741
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 5478
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 10157
+DIFF is positive
+Setting up Adhan Time... for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 2
+kill in progress
+++++++++++++FILE CLEAN++++++++++++
+total 16
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted 5312 Dec 17 15:33 Traces_17122024.log
+-rw-r--r-- 1 ted ted  338 Dec 17 15:33 dump.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -29561
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -10002
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -3342
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 4877
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 9556
+DIFF is positive
+Setting up Adhan Time... for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 1
+kill in progress
+++++++++++++FILE CLEAN++++++++++++
+total 16
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted  338 Dec 17 15:33 dump.log
+-rw-r--r-- 1 ted ted 6280 Dec 17 15:34 Traces_17122024.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -29633
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -10074
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -3414
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 4805
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 9484
+DIFF is positive
+Setting up Adhan Time... for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 2
+kill in progress
+++++++++++++FILE CLEAN++++++++++++
+total 16
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted  338 Dec 17 15:33 dump.log
+-rw-r--r-- 1 ted ted 7248 Dec 17 15:36 Traces_17122024.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -29725
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -10165
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -3506
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 4713
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 9393
+DIFF is positive
+Setting up Adhan Time... for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 0
+++++++++++++FILE CLEAN++++++++++++
+total 20
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted  338 Dec 17 15:33 dump.log
+-rw-r--r-- 1 ted ted 8199 Dec 17 15:37 Traces_17122024.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -29790
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -10231
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -3571
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 4648
+DIFF is positive
+Setting up Adhan Time... for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 9327
+DIFF is positive
+Setting up Adhan Time... for Isha

@@ -8,8 +8,8 @@ FOLDER=/home/ted/Desktop/ADHAN
 LOG_FILENAME="logs/Traces_$(date '+%d%m%Y').log"
 COMMAND_MB_START="$FOLDER/connect_mb.sh"
 COMMAND_MB_END="$FOLDER/disconnect_mb.sh"
-COMMAND_VLC_FAJR="(pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shuf -n 1) vlc://quit)"
-COMMAND_VLC_ADHAN="(pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit)"
+#COMMAND_VLC_FAJR="(pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shuf -n 1) vlc://quit)"
+#COMMAND_VLC_ADHAN="(pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit)"
 
 Log() {
         printf '%s\n' "$@" >> $FOLDER/$LOG_FILENAME
@@ -51,8 +51,8 @@ DecideAdhan(){
 	DIFF=`echo $(( $(date -d "$ADHAN_TIME" +%s) - $(date +%s) ))`
 	Log "DIFF between $ADHAN and now is : $DIFF"
 	[ $DIFF -gt 0 ] && Log "DIFF is positive"
-	[ $DIFF -gt 0 ] && [ "$ADHAN" = "Fajr" ] && Log "Setting up Fajr Time..." && bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_FAJR && $COMMAND_MB_END" 2>&1 &
-	[ $DIFF -gt 0 ] && [ "$ADHAN" != "Fajr" ] && Log "Setting up Adhan Time... for $ADHAN" && bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_ADHAN && $COMMAND_MB_END" 2>&1 &
+	[ $DIFF -gt 0 ] && [ "$ADHAN" = "Fajr" ] && Log "Setting up Fajr Time..." && bash -c "sleep $DIFF && $COMMAND_MB_START && (pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shut -n 1) vlc://quit) && $COMMAND_MB_END" 2>&1 &
+	[ $DIFF -gt 0 ] && [ "$ADHAN" != "Fajr" ] && Log "Setting up Adhan Time... for $ADHAN" && bash -c "sleep $DIFF && $COMMAND_MB_START && (pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit) && $COMMAND_MB_END" 2>&1 &
 }
 
 DecideAdhan Fajr
