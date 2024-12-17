@@ -350,3 +350,37 @@ total 28
 2024-12-17		19:37:55 DIFF is positive
 2024-12-17		19:37:55 Writing in Git all ADHAN files. including logs...
 2024-12-17		19:37:55 Setting up Adhan Time... for Isha
+2024-12-17 19:42:40		-------------------------------------------------------------
+2024-12-17 19:42:40		++++++++++++PROC CLEAN++++++++++++
+2024-12-17 19:42:40		Clean Current Adhan processes
+2024-12-17 19:42:40		Number of processes to kill : 0
+2024-12-17 19:42:40		++++++++++++FILE CLEAN++++++++++++
+total 28
+-rw-r--r-- 1 ted ted   202 Dec 17 19:29 dump.log
+-rw-r--r-- 1 ted ted 19627 Dec 17 19:42 Traces_17122024.log
+2024-12-17 19:42:40		++++++++++++MAIN++++++++++++
+2024-12-17 19:42:40		Getting Final URL
+2024-12-17 19:42:40		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [TEST]
+2024-12-17 19:42:40		Executing Script in Test Mode
+2024-12-17 19:42:40		URL FINAL : http://localhost
+2024-12-17 19:42:40		Fajr Time For Fajr : 19:47
+2024-12-17 19:42:40		DIFF between Fajr and now is : 260
+2024-12-17 19:42:40		DIFF is positive
+2024-12-17 19:42:40		Setting up Fajr Time...
+2024-12-17 19:42:40		Dhuhr Time For Dhuhr : 19:52
+2024-12-17 19:42:40		DIFF between Dhuhr and now is : 560
+2024-12-17 19:42:40		DIFF is positive
+2024-12-17 19:42:40		Setting up Adhan Time... for Dhuhr
+2024-12-17 19:42:40		Asr Time For Asr : 19:57
+2024-12-17 19:42:40		DIFF between Asr and now is : 860
+2024-12-17 19:42:40		DIFF is positive
+2024-12-17 19:42:40		Setting up Adhan Time... for Asr
+2024-12-17 19:42:40		Maghrib Time For Maghrib : 20:02
+2024-12-17 19:42:40		DIFF between Maghrib and now is : 1160
+2024-12-17 19:42:41		DIFF is positive
+2024-12-17 19:42:41		Setting up Adhan Time... for Maghrib
+2024-12-17 19:42:41		Isha Time For Isha : 20:07
+2024-12-17 19:42:41		DIFF between Isha and now is : 1459
+2024-12-17 19:42:41		DIFF is positive
+2024-12-17 19:42:41		Writing in Git all ADHAN files. including logs...
+2024-12-17 19:42:41		Setting up Adhan Time... for Isha

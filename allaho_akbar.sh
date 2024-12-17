@@ -8,16 +8,14 @@ FOLDER=/home/ted/Desktop/ADHAN
 LOG_FILENAME="logs/Traces_$(date '+%d%m%Y').log"
 COMMAND_MB_START="$FOLDER/connect_mb.sh"
 COMMAND_MB_END="$FOLDER/disconnect_mb.sh"
-#COMMAND_VLC_FAJR="(pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shuf -n 1) vlc://quit)"
-#COMMAND_VLC_ADHAN="(pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit)"
-
-
 
 Log() {
-	printf "$(date +'%Y-%m-%d\t\t%H:%M:%S') %s\n" "$@" >> $FOLDER/$LOG_FILENAME
+	printf "$(date +'%Y-%m-%d %H:%M:%S')\t\t%s\n" "$@" >> $FOLDER/$LOG_FILENAME
 }
 
 Log "-------------------------------------------------------------"
+
+
 
 Log '++++++++++++PROC CLEAN++++++++++++'
 Log "Clean Current Adhan processes"
@@ -34,13 +32,16 @@ ls -ltr $FOLDER/logs >> $FOLDER/$LOG_FILENAME
 find $FOLDER/logs -name \"*.log\" -type f -mtime +10 -delete
 
 
+
+
 Log '++++++++++++MAIN++++++++++++'
 Log "Getting Final URL"
-
 Log "Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [$1]"
 [ "0$1" = "0TEST" ] && Log "Executing Script in Test Mode"
 [ "0$1" = "0TEST" ] && $FOLDER/setup_test.sh && URL="http://localhost" || URL="$API_URL/$(date '+%d-%m-%Y')?latitude=$LATITUDE&longitude=$LONGITUDE&method=$METHOD"
 Log "URL FINAL : $URL"
+
+
 
 GetAdhanTime() {
 	ADHAN=$1
@@ -54,14 +55,21 @@ GetAdhanTime() {
 
 
 DecideAdhan(){
+
 	ADHAN=$1
 	ADHAN_TIME=$(GetAdhanTime $ADHAN)
+
 	DIFF=`echo $(( $(date -d "$ADHAN_TIME" +%s) - $(date +%s) ))`
 	Log "DIFF between $ADHAN and now is : $DIFF"
+
 	[ $DIFF -gt 0 ] && Log "DIFF is positive"
-	[ $DIFF -gt 0 ] && [ "$ADHAN" = "Fajr" ] && Log "Setting up Fajr Time..." && bash -c "sleep $DIFF && $COMMAND_MB_START && (pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shut -n 1) vlc://quit) && $COMMAND_MB_END" 2>&1 &
+	[ $DIFF -gt 0 ] && [ "$ADHAN" = "Fajr" ] && Log "Setting up Fajr Time..." && bash -c "sleep $DIFF && $COMMAND_MB_START && (pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shuf -n 1) vlc://quit) && $COMMAND_MB_END" 2>&1 &
 	[ $DIFF -gt 0 ] && [ "$ADHAN" != "Fajr" ] && Log "Setting up Adhan Time... for $ADHAN" && bash -c "sleep $DIFF && $COMMAND_MB_START && (pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit) && $COMMAND_MB_END" 2>&1 &
 }
+
+
+
+
 
 DecideAdhan Fajr
 DecideAdhan Dhuhr
