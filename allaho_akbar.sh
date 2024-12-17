@@ -18,8 +18,6 @@ Log() {
 }
 
 Log "-------------------------------------------------------------"
-[ "0$1" = "0TEST" ] && Log "Executing Script in Test Mode"
-
 
 Log '++++++++++++PROC CLEAN++++++++++++'
 Log "Clean Current Adhan processes"
@@ -29,15 +27,20 @@ Log "Number of processes to kill : $(eval $nb_ps_to_kill)"
 [ $(eval $nb_ps_to_kill) -gt 0 ] && Log "kill in progress"
 [ $(eval $nb_ps_to_kill) -gt 0 ] && kill -9 $(eval $ps_command) > /dev/null 2>&1
 
-Log '++++++++++++FILE CLEAN++++++++++++'
 
+
+Log '++++++++++++FILE CLEAN++++++++++++'
 ls -ltr $FOLDER/logs >> $FOLDER/$LOG_FILENAME
 find $FOLDER/logs -name \"*.log\" -type f -mtime +10 -delete
 
+
 Log '++++++++++++MAIN++++++++++++'
 Log "Getting Final URL"
-URL="$API_URL/$(date '+%d-%m-%Y')?latitude=$LATITUDE&longitude=$LONGITUDE&method=$METHOD"
-Log "URL : $URL"
+
+Log "Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [$1]"
+[ "0$1" = "0TEST" ] && Log "Executing Script in Test Mode"
+[ "0$1" = "0TEST" ] && $FOLDER/setup_test.sh && URL="http://mokyamok.pouipoui.com/" || URL="$API_URL/$(date '+%d-%m-%Y')?latitude=$LATITUDE&longitude=$LONGITUDE&method=$METHOD"
+Log "URL FINAL : $URL"
 
 GetAdhanTime() {
 	ADHAN=$1
