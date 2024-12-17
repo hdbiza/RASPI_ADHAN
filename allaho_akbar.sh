@@ -14,7 +14,7 @@ COMMAND_MB_END="$FOLDER/disconnect_mb.sh"
 
 
 Log() {
-	printf "$(date +'%Y-%m-%d %H:%M:%S') %s\n" "$@" >> $FOLDER/$LOG_FILENAME
+	printf "$(date +'%Y-%m-%d\t\t%H:%M:%S') %s\n" "$@" >> $FOLDER/$LOG_FILENAME
 }
 
 Log "-------------------------------------------------------------"
@@ -39,7 +39,7 @@ Log "Getting Final URL"
 
 Log "Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [$1]"
 [ "0$1" = "0TEST" ] && Log "Executing Script in Test Mode"
-[ "0$1" = "0TEST" ] && $FOLDER/setup_test.sh && URL="http://mokyamok.pouipoui.com/" || URL="$API_URL/$(date '+%d-%m-%Y')?latitude=$LATITUDE&longitude=$LONGITUDE&method=$METHOD"
+[ "0$1" = "0TEST" ] && $FOLDER/setup_test.sh && URL="http://localhost" || URL="$API_URL/$(date '+%d-%m-%Y')?latitude=$LATITUDE&longitude=$LONGITUDE&method=$METHOD"
 Log "URL FINAL : $URL"
 
 GetAdhanTime() {
