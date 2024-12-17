@@ -1,0 +1,59 @@
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 0
+++++++++++++FILE CLEAN++++++++++++
+total 8
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted    0 Dec 17 02:05 dump.log
+-rw-r--r-- 1 ted ted  194 Dec 17 02:05 Traces_17122024.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : 18937
+DIFF is positive
+Starting Fajr on Tue 17 Dec 02:05:23 CET 2024
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : 38497
+DIFF is positive
+Starting Adhan on Tue 17 Dec 02:05:23 CET 2024 for Dhuhr
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : 45156
+DIFF is positive
+Starting Adhan on Tue 17 Dec 02:05:24 CET 2024 for Asr
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 53374
+DIFF is positive
+Starting Adhan on Tue 17 Dec 02:05:26 CET 2024 for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 58053
+DIFF is positive
+Starting Adhan on Tue 17 Dec 02:05:27 CET 2024 for Isha
+-------------------------------------------------------------
+++++++++++++PROC CLEAN++++++++++++
+Clean Current Adhan processes
+Number of processes to kill : 2
+kill in progress
+++++++++++++FILE CLEAN++++++++++++
+total 12
+-rw-r--r-- 1 ted ted 1578 Dec 16 23:14 Traces_16122024.log
+-rw-r--r-- 1 ted ted 1414 Dec 17 14:52 Traces_17122024.log
+-rw-r--r-- 1 ted ted 2551 Dec 17 14:52 dump.log
+++++++++++++MAIN++++++++++++
+Getting Final URL
+URL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+Fajr Time For Fajr : 07:21
+DIFF between Fajr and now is : -27099
+Dhuhr Time For Dhuhr : 12:47
+DIFF between Dhuhr and now is : -7540
+Asr Time For Asr : 14:38
+DIFF between Asr and now is : -881
+Maghrib Time For Maghrib : 16:55
+DIFF between Maghrib and now is : 7339
+DIFF is positive
+Starting Adhan on Tue 17 Dec 14:52:41 CET 2024 for Maghrib
+Isha Time For Isha : 18:13
+DIFF between Isha and now is : 12018
+DIFF is positive
+Starting Adhan on Tue 17 Dec 14:52:42 CET 2024 for Isha
