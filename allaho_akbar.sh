@@ -51,8 +51,8 @@ DecideAdhan(){
 	DIFF=`echo $(( $(date -d "$ADHAN_TIME" +%s) - $(date +%s) ))`
 	Log "DIFF between $ADHAN and now is : $DIFF"
 	[ $DIFF -gt 0 ] && Log "DIFF is positive"
-	[ $DIFF -gt 0 ] && [ "$ADHAN" = "Fajr" ] && Log "Starting Fajr on $(date)" && bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_FAJR && $COMMAND_MB_END" &
-	[ $DIFF -gt 0 ] && [ "$ADHAN" != "Fajr" ] && Log "Starting Adhan on $(date) for $ADHAN" && bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_ADHAN && $COMMAND_MB_END" &
+	[ $DIFF -gt 0 ] && [ "$ADHAN" = "Fajr" ] && Log "Setting up Fajr Time..." && bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_FAJR && $COMMAND_MB_END" &
+	[ $DIFF -gt 0 ] && [ "$ADHAN" != "Fajr" ] && Log "Setting up Adhan Time... for $ADHAN" && bash -c "sleep $DIFF && $COMMAND_MB_START && $COMMAND_VLC_ADHAN && $COMMAND_MB_END" &
 }
 
 DecideAdhan Fajr
