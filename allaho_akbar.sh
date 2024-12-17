@@ -62,6 +62,9 @@ DecideAdhan Maghrib
 DecideAdhan Isha
 
 Log "Writing in Git all ADHAN files. including logs..."
-git add * && git commit -m "update du '$(date)'" && git push origin master
+cd $FOLDER
+git add *
+git commit -m "update du '$(date)'"
+git push origin master
 
 exit 0
