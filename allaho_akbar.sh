@@ -76,6 +76,8 @@ DecideAdhan Dhuhr
 DecideAdhan Asr
 DecideAdhan Maghrib
 DecideAdhan Isha
+Log "Tracing result"
+ps -ef | grep vlc > "$FOLDER/logs/psvlc_$(date +'%Y%m%d%H%M%S').log"
 
 Log "Writing in Git all ADHAN files. including logs..."
 cd $FOLDER

@@ -464,3 +464,39 @@ total 28
 2024-12-17 19:46:58		DIFF is positive
 2024-12-17 19:46:58		Setting up Adhan Time... for Isha
 2024-12-17 19:46:58		Writing in Git all ADHAN files. including logs...
+2024-12-17 19:55:40		-------------------------------------------------------------
+2024-12-17 19:55:40		++++++++++++PROC CLEAN++++++++++++
+2024-12-17 19:55:40		Clean Current Adhan processes
+2024-12-17 19:55:40		Number of processes to kill : 0
+2024-12-17 19:55:40		++++++++++++FILE CLEAN++++++++++++
+total 36
+-rw-r--r-- 1 ted ted    74 Dec 17 19:52 ps_vlc.log
+-rw-r--r-- 1 ted ted     0 Dec 17 19:55 dump.log
+-rw-r--r-- 1 ted ted 25821 Dec 17 19:55 Traces_17122024.log
+2024-12-17 19:55:40		++++++++++++MAIN++++++++++++
+2024-12-17 19:55:40		Getting Final URL
+2024-12-17 19:55:40		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [TEST]
+2024-12-17 19:55:40		Executing Script in Test Mode
+2024-12-17 19:55:41		URL FINAL : http://localhost
+2024-12-17 19:55:41		Fajr Time For Fajr : 20:00
+2024-12-17 19:55:41		DIFF between Fajr and now is : 259
+2024-12-17 19:55:41		DIFF is positive
+2024-12-17 19:55:41		Setting up Fajr Time...
+2024-12-17 19:55:41		Dhuhr Time For Dhuhr : 20:05
+2024-12-17 19:55:41		DIFF between Dhuhr and now is : 559
+2024-12-17 19:55:41		DIFF is positive
+2024-12-17 19:55:41		Setting up Adhan Time... for Dhuhr
+2024-12-17 19:55:41		Asr Time For Asr : 20:10
+2024-12-17 19:55:41		DIFF between Asr and now is : 859
+2024-12-17 19:55:41		DIFF is positive
+2024-12-17 19:55:41		Setting up Adhan Time... for Asr
+2024-12-17 19:55:41		Maghrib Time For Maghrib : 20:15
+2024-12-17 19:55:41		DIFF between Maghrib and now is : 1159
+2024-12-17 19:55:41		DIFF is positive
+2024-12-17 19:55:41		Setting up Adhan Time... for Maghrib
+2024-12-17 19:55:41		Isha Time For Isha : 20:20
+2024-12-17 19:55:41		DIFF between Isha and now is : 1459
+2024-12-17 19:55:41		DIFF is positive
+2024-12-17 19:55:41		Tracing result
+2024-12-17 19:55:41		Setting up Adhan Time... for Isha
+2024-12-17 19:55:41		Writing in Git all ADHAN files. including logs...
