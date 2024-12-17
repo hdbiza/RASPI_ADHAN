@@ -524,3 +524,28 @@ total 32
 2024-12-17 19:57:07		DIFF between Isha and now is : -6247
 2024-12-17 19:57:07		Tracing result
 2024-12-17 19:57:07		Writing in Git all ADHAN files. including logs...
+2024-12-17 19:58:29		-------------------------------------------------------------
+2024-12-17 19:58:29		++++++++++++PROC CLEAN++++++++++++
+2024-12-17 19:58:29		Clean Current Adhan processes
+2024-12-17 19:58:30		Number of processes to kill : 0
+2024-12-17 19:58:30		++++++++++++FILE CLEAN++++++++++++
+total 40
+-rw-r--r-- 1 ted ted    61 Dec 17 19:57 psvlc_20241217195707.log
+-rw-r--r-- 1 ted ted     0 Dec 17 19:58 dump.log
+-rw-r--r-- 1 ted ted 29041 Dec 17 19:58 Traces_17122024.log
+2024-12-17 19:58:30		++++++++++++MAIN++++++++++++
+2024-12-17 19:58:30		Getting Final URL
+2024-12-17 19:58:30		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = []
+2024-12-17 19:58:30		URL FINAL : https://api.aladhan.com/v1/timings/17-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+2024-12-17 19:58:30		Fajr Time For Fajr : 07:21
+2024-12-17 19:58:31		DIFF between Fajr and now is : -45451
+2024-12-17 19:58:31		Dhuhr Time For Dhuhr : 12:47
+2024-12-17 19:58:31		DIFF between Dhuhr and now is : -25891
+2024-12-17 19:58:32		Asr Time For Asr : 14:38
+2024-12-17 19:58:32		DIFF between Asr and now is : -19232
+2024-12-17 19:58:33		Maghrib Time For Maghrib : 16:55
+2024-12-17 19:58:33		DIFF between Maghrib and now is : -11013
+2024-12-17 19:58:33		Isha Time For Isha : 18:13
+2024-12-17 19:58:33		DIFF between Isha and now is : -6333
+2024-12-17 19:58:33		Tracing result
+2024-12-17 19:58:33		Writing in Git all ADHAN files. including logs...
