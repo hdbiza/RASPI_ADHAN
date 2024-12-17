@@ -11,11 +11,16 @@ COMMAND_MB_END="$FOLDER/disconnect_mb.sh"
 #COMMAND_VLC_FAJR="(pkill vlc;cvlc $(find $FOLDER/mp3/fajr_*.mp3 -type f | shuf -n 1) vlc://quit)"
 #COMMAND_VLC_ADHAN="(pkill vlc;cvlc $(find $FOLDER/mp3/adhan_*.mp3 -type f | shuf -n 1) vlc://quit)"
 
+
+
 Log() {
 	printf "$(date +'%Y-%m-%d %H:%M:%S') %s\n" "$@" >> $FOLDER/$LOG_FILENAME
 }
 
 Log "-------------------------------------------------------------"
+[ "0$1" = "0TEST" ] && Log "Executing Script in Test Mode"
+
+
 Log '++++++++++++PROC CLEAN++++++++++++'
 Log "Clean Current Adhan processes"
 ps_command="ps -aux | grep vlc | grep -v grep | awk '{ print \$2 }'"
