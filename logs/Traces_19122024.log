@@ -76,3 +76,41 @@ total 28
 2024-12-19 02:06:52		Setting up Adhan Time... for Isha
 2024-12-19 02:06:52		Tracing result
 2024-12-19 02:06:52		Writing in Git all ADHAN files. including logs...
+2024-12-19 09:43:28		-------------------------------------------------------------
+2024-12-19 09:43:28		++++++++++++PROC CLEAN++++++++++++
+2024-12-19 09:43:28		Clean Current Adhan processes
+2024-12-19 09:43:28		Number of processes to kill : 0
+2024-12-19 09:43:28		++++++++++++FILE CLEAN++++++++++++
+total 36
+-rw-r--r-- 1 ted ted   61 Dec 17 20:02 psvlc_20241217200242.log
+-rw-r--r-- 1 ted ted   61 Dec 17 20:03 psvlc_20241217200355.log
+-rw-r--r-- 1 ted ted 2707 Dec 17 20:03 Traces_17122024.log
+-rw-r--r-- 1 ted ted  974 Dec 18 02:05 psvlc_20241218020528.log
+-rw-r--r-- 1 ted ted 1865 Dec 18 02:05 Traces_18122024.log
+-rw-r--r-- 1 ted ted 1202 Dec 19 02:05 psvlc_20241219020527.log
+-rw-r--r-- 1 ted ted 1200 Dec 19 02:06 psvlc_20241219020652.log
+-rw-r--r-- 1 ted ted 4575 Dec 19 09:43 Traces_19122024.log
+2024-12-19 09:43:29		++++++++++++MAIN++++++++++++
+2024-12-19 09:43:29		Getting Final URL
+2024-12-19 09:43:29		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = []
+2024-12-19 09:43:29		URL FINAL : https://api.aladhan.com/v1/timings/19-12-2024?latitude=48.7824971&longitude=2.343032&method=12
+2024-12-19 09:43:29		Fajr Time For Fajr : 07:22
+2024-12-19 09:43:29		DIFF between Fajr and now is : -8489
+2024-12-19 09:43:30		Dhuhr Time For Dhuhr : 12:48
+2024-12-19 09:43:30		DIFF between Dhuhr and now is : 11070
+2024-12-19 09:43:30		DIFF is positive
+2024-12-19 09:43:30		Setting up Adhan Time... for Dhuhr
+2024-12-19 09:43:31		Asr Time For Asr : 14:39
+2024-12-19 09:43:31		DIFF between Asr and now is : 17729
+2024-12-19 09:43:31		DIFF is positive
+2024-12-19 09:43:31		Setting up Adhan Time... for Asr
+2024-12-19 09:43:32		Maghrib Time For Maghrib : 16:56
+2024-12-19 09:43:32		DIFF between Maghrib and now is : 25948
+2024-12-19 09:43:32		DIFF is positive
+2024-12-19 09:43:32		Setting up Adhan Time... for Maghrib
+2024-12-19 09:43:32		Isha Time For Isha : 18:13
+2024-12-19 09:43:32		DIFF between Isha and now is : 30568
+2024-12-19 09:43:32		DIFF is positive
+2024-12-19 09:43:32		Tracing result
+2024-12-19 09:43:32		Setting up Adhan Time... for Isha
+2024-12-19 09:43:32		Writing in Git all ADHAN files. including logs...
