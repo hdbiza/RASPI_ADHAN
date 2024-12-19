@@ -396,3 +396,47 @@ total 80
 2024-12-19 22:57:15		DIFF between Isha and now is : -17055
 2024-12-19 22:57:15		Tracing result
 2024-12-19 22:57:15		Writing in Git all ADHAN files. including logs...
+2024-12-19 22:57:42		-------------------------------------------------------------
+2024-12-19 22:57:42		++++++++++++PROC CLEAN++++++++++++
+2024-12-19 22:57:42		Clean Current Adhan processes
+2024-12-19 22:57:42		Number of processes to kill : 0
+2024-12-19 22:57:43		++++++++++++FILE CLEAN++++++++++++
+total 84
+-rw-r--r-- 1 ted ted    61 Dec 17 20:02 psvlc_20241217200242.log
+-rw-r--r-- 1 ted ted    61 Dec 17 20:03 psvlc_20241217200355.log
+-rw-r--r-- 1 ted ted  2707 Dec 17 20:03 Traces_17122024.log
+-rw-r--r-- 1 ted ted   974 Dec 18 02:05 psvlc_20241218020528.log
+-rw-r--r-- 1 ted ted  1865 Dec 18 02:05 Traces_18122024.log
+-rw-r--r-- 1 ted ted  1202 Dec 19 02:05 psvlc_20241219020527.log
+-rw-r--r-- 1 ted ted  1200 Dec 19 02:06 psvlc_20241219020652.log
+-rw-r--r-- 1 ted ted   975 Dec 19 09:43 psvlc_20241219094332.log
+-rw-r--r-- 1 ted ted   974 Dec 19 09:44 psvlc_20241219094412.log
+-rw-r--r-- 1 ted ted   516 Dec 19 12:55 psvlc_20241219125513.log
+-rw-r--r-- 1 ted ted   745 Dec 19 13:26 psvlc_20241219132629.log
+-rw-r--r-- 1 ted ted    61 Dec 19 22:53 psvlc_20241219225309.log
+-rw-r--r-- 1 ted ted   122 Dec 19 22:55 psvlc_20241219225514.log
+-rw-r--r-- 1 ted ted    61 Dec 19 22:57 psvlc_20241219225715.log
+-rw-r--r-- 1 ted ted 23236 Dec 19 22:57 Traces_19122024.log
+2024-12-19 22:57:43		++++++++++++MAIN++++++++++++
+2024-12-19 22:57:43		Getting Final URL
+2024-12-19 22:57:43		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [TEST]
+2024-12-19 22:57:43		Executing Script in Test Mode
+2024-12-19 22:57:43		URL FINAL : http://localhost
+2024-12-19 22:57:43		Dhuhr Time For Dhuhr : 23:07
+2024-12-19 22:57:43		DIFF between Dhuhr and now is : 557
+2024-12-19 22:57:43		DIFF is positive
+2024-12-19 22:57:43		Setting up Adhan Time... for Dhuhr
+2024-12-19 22:57:43		Asr Time For Asr : 23:12
+2024-12-19 22:57:43		DIFF between Asr and now is : 857
+2024-12-19 22:57:43		DIFF is positive
+2024-12-19 22:57:43		Setting up Adhan Time... for Asr
+2024-12-19 22:57:43		Maghrib Time For Maghrib : 23:17
+2024-12-19 22:57:43		DIFF between Maghrib and now is : 1157
+2024-12-19 22:57:43		DIFF is positive
+2024-12-19 22:57:43		Setting up Adhan Time... for Maghrib
+2024-12-19 22:57:43		Isha Time For Isha : 23:22
+2024-12-19 22:57:43		DIFF between Isha and now is : 1457
+2024-12-19 22:57:43		DIFF is positive
+2024-12-19 22:57:43		Setting up Adhan Time... for Isha
+2024-12-19 22:57:43		Tracing result
+2024-12-19 22:57:43		Writing in Git all ADHAN files. including logs...
