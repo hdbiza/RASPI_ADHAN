@@ -1,0 +1,5 @@
+ted          833     823  0 02:05 tty1     00:00:00 bash -c sleep 38916 && /home/ted/Desktop/ADHAN/connect_mb.sh && (pkill vlc;cvlc /home/ted/Desktop/ADHAN/mp3/adhan_30.mp3 vlc://quit) && /home/ted/Desktop/ADHAN/disconnect_mb.sh
+ted          863     850  0 02:05 tty1     00:00:00 bash -c sleep 45635 && /home/ted/Desktop/ADHAN/connect_mb.sh && (pkill vlc;cvlc /home/ted/Desktop/ADHAN/mp3/adhan_5.mp3 vlc://quit) && /home/ted/Desktop/ADHAN/disconnect_mb.sh
+ted          884     874  0 02:05 tty1     00:00:00 bash -c sleep 53914 && /home/ted/Desktop/ADHAN/connect_mb.sh && (pkill vlc;cvlc /home/ted/Desktop/ADHAN/mp3/adhan_30.mp3 vlc://quit) && /home/ted/Desktop/ADHAN/disconnect_mb.sh
+ted          907     748  0 02:05 tty1     00:00:00 grep vlc
+ted          911     902  0 02:05 tty1     00:00:00 bash -c sleep 58534 && /home/ted/Desktop/ADHAN/connect_mb.sh && (pkill vlc;cvlc /home/ted/Desktop/ADHAN/mp3/adhan_5.mp3 vlc://quit) && /home/ted/Desktop/ADHAN/disconnect_mb.sh
