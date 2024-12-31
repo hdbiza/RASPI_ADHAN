@@ -71,7 +71,7 @@ DecideAdhan(){
 
 
 
-#DecideAdhan Fajr
+DecideAdhan Fajr
 DecideAdhan Dhuhr
 DecideAdhan Asr
 DecideAdhan Maghrib
