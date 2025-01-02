@@ -1,0 +1,2 @@
+ted         3679    3572  0 17:10 pts/0    00:00:00 grep vlc
+ted         3682    3673  0 17:10 pts/0    00:00:00 bash -c sleep 4369 && /home/ted/Desktop/ADHAN/connect_mb.sh && (pkill vlc;cvlc /home/ted/Desktop/ADHAN/mp3/adhan_5.mp3 vlc://quit) && /home/ted/Desktop/ADHAN/disconnect_mb.sh
