@@ -19,3 +19,26 @@ total 4
 2025-01-09 23:28:13		DIFF between Isha and now is : -17893
 2025-01-09 23:28:13		Tracing result
 2025-01-09 23:28:13		Writing in Git all ADHAN files. including logs...
+2025-01-09 23:28:36		-------------------------------------------------------------
+2025-01-09 23:28:36		++++++++++++PROC CLEAN++++++++++++
+2025-01-09 23:28:36		Clean Current Adhan processes
+2025-01-09 23:28:37		Number of processes to kill : 0
+2025-01-09 23:28:37		++++++++++++FILE CLEAN++++++++++++
+total 8
+-rw-r--r-- 1 ted ted   61 Jan  9 23:28 psvlc_20250109232813.log
+-rw-r--r-- 1 ted ted 1514 Jan  9 23:28 Traces_09012025.log
+2025-01-09 23:28:37		++++++++++++MAIN++++++++++++
+2025-01-09 23:28:37		Getting Final URL
+2025-01-09 23:28:37		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = [TEST]
+2025-01-09 23:28:37		Executing Script in Test Mode
+2025-01-09 23:28:37		URL FINAL : https://api.aladhan.com/v1/timings/09-01-2025?latitude=48.7824971&longitude=2.343032&method=12
+2025-01-09 23:28:38		Dhuhr Time For Dhuhr : 12:58
+2025-01-09 23:28:38		DIFF between Dhuhr and now is : -37838
+2025-01-09 23:28:38		Asr Time For Asr : 14:54
+2025-01-09 23:28:38		DIFF between Asr and now is : -30878
+2025-01-09 23:28:39		Maghrib Time For Maghrib : 17:14
+2025-01-09 23:28:39		DIFF between Maghrib and now is : -22479
+2025-01-09 23:28:40		Isha Time For Isha : 18:30
+2025-01-09 23:28:40		DIFF between Isha and now is : -17920
+2025-01-09 23:28:40		Tracing result
+2025-01-09 23:28:40		Writing in Git all ADHAN files. including logs...
