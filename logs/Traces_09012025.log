@@ -1,0 +1,21 @@
+2025-01-09 23:28:09		-------------------------------------------------------------
+2025-01-09 23:28:09		++++++++++++PROC CLEAN++++++++++++
+2025-01-09 23:28:09		Clean Current Adhan processes
+2025-01-09 23:28:09		Number of processes to kill : 0
+2025-01-09 23:28:09		++++++++++++FILE CLEAN++++++++++++
+total 4
+-rw-r--r-- 1 ted ted 299 Jan  9 23:28 Traces_09012025.log
+2025-01-09 23:28:09		++++++++++++MAIN++++++++++++
+2025-01-09 23:28:09		Getting Final URL
+2025-01-09 23:28:09		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = []
+2025-01-09 23:28:09		URL FINAL : https://api.aladhan.com/v1/timings/09-01-2025?latitude=48.7824971&longitude=2.343032&method=12
+2025-01-09 23:28:10		Dhuhr Time For Dhuhr : 12:58
+2025-01-09 23:28:10		DIFF between Dhuhr and now is : -37810
+2025-01-09 23:28:11		Asr Time For Asr : 14:54
+2025-01-09 23:28:11		DIFF between Asr and now is : -30851
+2025-01-09 23:28:12		Maghrib Time For Maghrib : 17:14
+2025-01-09 23:28:12		DIFF between Maghrib and now is : -22452
+2025-01-09 23:28:13		Isha Time For Isha : 18:30
+2025-01-09 23:28:13		DIFF between Isha and now is : -17893
+2025-01-09 23:28:13		Tracing result
+2025-01-09 23:28:13		Writing in Git all ADHAN files. including logs...
