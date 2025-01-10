@@ -29,7 +29,7 @@ Log "Number of processes to kill : $(eval $nb_ps_to_kill)"
 
 Log '++++++++++++FILE CLEAN++++++++++++'
 ls -ltr $FOLDER/logs >> $FOLDER/$LOG_FILENAME
-find $FOLDER/logs -name \"*.log\" -type f -mtime +2 -delete
+find $FOLDER/logs -name \"*.log\" -type f -ctime +2 -delete
 
 
 
