@@ -30,3 +30,36 @@ total 4
 2025-01-10 11:44:08		Tracing result
 2025-01-10 11:44:08		Setting up Adhan Time... for Isha
 2025-01-10 11:44:09		Writing in Git all ADHAN files. including logs...
+2025-01-10 12:05:01		-------------------------------------------------------------
+2025-01-10 12:05:01		++++++++++++PROC CLEAN++++++++++++
+2025-01-10 12:05:01		Clean Current Adhan processes
+2025-01-10 12:05:01		Number of processes to kill : 0
+2025-01-10 12:05:01		++++++++++++FILE CLEAN++++++++++++
+total 12
+-rw-r--r-- 1 ted ted  974 Jan 10 11:44 psvlc.log
+-rw-r--r-- 1 ted ted   78 Jan 10 12:01 trace_reboot.log
+-rw-r--r-- 1 ted ted 2029 Jan 10 12:05 Traces_10012025.log
+2025-01-10 12:05:01		++++++++++++MAIN++++++++++++
+2025-01-10 12:05:01		Getting Final URL
+2025-01-10 12:05:01		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = []
+2025-01-10 12:05:01		URL FINAL : https://api.aladhan.com/v1/timings/10-01-2025?latitude=48.7824971&longitude=2.343032&method=12
+2025-01-10 12:05:02		Fajr Time For Fajr : 07:26
+2025-01-10 12:05:02		DIFF between Fajr and now is : -16742
+2025-01-10 12:05:03		Dhuhr Time For Dhuhr : 12:58
+2025-01-10 12:05:03		DIFF between Dhuhr and now is : 3177
+2025-01-10 12:05:03		DIFF is positive
+2025-01-10 12:05:03		Setting up Adhan Time... for Dhuhr
+2025-01-10 12:05:03		Asr Time For Asr : 14:55
+2025-01-10 12:05:03		DIFF between Asr and now is : 10197
+2025-01-10 12:05:03		DIFF is positive
+2025-01-10 12:05:03		Setting up Adhan Time... for Asr
+2025-01-10 12:05:04		Maghrib Time For Maghrib : 17:16
+2025-01-10 12:05:04		DIFF between Maghrib and now is : 18656
+2025-01-10 12:05:04		DIFF is positive
+2025-01-10 12:05:04		Setting up Adhan Time... for Maghrib
+2025-01-10 12:05:05		Isha Time For Isha : 18:31
+2025-01-10 12:05:05		DIFF between Isha and now is : 23155
+2025-01-10 12:05:05		DIFF is positive
+2025-01-10 12:05:05		Tracing result
+2025-01-10 12:05:05		Setting up Adhan Time... for Isha
+2025-01-10 12:05:05		Writing in Git all ADHAN files. including logs...
