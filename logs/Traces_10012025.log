@@ -96,3 +96,37 @@ total 12
 2025-01-10 12:05:49		Tracing result
 2025-01-10 12:05:49		Setting up Adhan Time... for Isha
 2025-01-10 12:05:49		Writing in Git all ADHAN files. including logs...
+2025-01-10 12:07:44		-------------------------------------------------------------
+2025-01-10 12:07:44		++++++++++++PROC CLEAN++++++++++++
+2025-01-10 12:07:44		Clean Current Adhan processes
+2025-01-10 12:07:45		Number of processes to kill : 4
+2025-01-10 12:07:45		kill in progress
+2025-01-10 12:07:45		++++++++++++FILE CLEAN++++++++++++
+total 16
+-rw-r--r-- 1 ted ted   78 Jan 10 12:01 trace_reboot.log
+-rw-r--r-- 1 ted ted  973 Jan 10 12:05 psvlc.log
+-rw-r--r-- 1 ted ted 5665 Jan 10 12:07 Traces_10012025.log
+2025-01-10 12:07:45		++++++++++++MAIN++++++++++++
+2025-01-10 12:07:45		Getting Final URL
+2025-01-10 12:07:45		Test Agument Present ? (if arg 1 == TEST, we will test). Arg 1 = []
+2025-01-10 12:07:45		URL FINAL : https://api.aladhan.com/v1/timings/10-01-2025?latitude=48.7824971&longitude=2.343032&method=12
+2025-01-10 12:07:46		Fajr Time For Fajr : 07:26
+2025-01-10 12:07:46		DIFF between Fajr and now is : -16906
+2025-01-10 12:07:46		Dhuhr Time For Dhuhr : 12:58
+2025-01-10 12:07:46		DIFF between Dhuhr and now is : 3014
+2025-01-10 12:07:46		DIFF is positive
+2025-01-10 12:07:46		Setting up Adhan Time... for Dhuhr
+2025-01-10 12:07:47		Asr Time For Asr : 14:55
+2025-01-10 12:07:47		DIFF between Asr and now is : 10033
+2025-01-10 12:07:47		DIFF is positive
+2025-01-10 12:07:47		Setting up Adhan Time... for Asr
+2025-01-10 12:07:48		Maghrib Time For Maghrib : 17:16
+2025-01-10 12:07:48		DIFF between Maghrib and now is : 18492
+2025-01-10 12:07:48		DIFF is positive
+2025-01-10 12:07:48		Setting up Adhan Time... for Maghrib
+2025-01-10 12:07:49		Isha Time For Isha : 18:31
+2025-01-10 12:07:49		DIFF between Isha and now is : 22991
+2025-01-10 12:07:49		DIFF is positive
+2025-01-10 12:07:49		Tracing result
+2025-01-10 12:07:49		Setting up Adhan Time... for Isha
+2025-01-10 12:07:49		Writing in Git all ADHAN files. including logs...
